@@ -1,10 +1,24 @@
+$light-font-color: whitesmoke;
+
 %header-color {
-  color: whitesmoke;
+  color: $light-font-color;
   background-color: gray;
 }
 
+$margin: 25px;
+
 body {
-  font-family: Arial, sans-serif
+  font-family: Arial, sans-serif;
+  background-color: ivory;
+  .btn {
+    font-weight: bold;
+  }
+  .btn-info {
+    color: $light-font-color;
+  }
+  .btn-info:hover {
+    background-color: aquamarine;
+  }
 }
 
 header {
@@ -38,5 +52,24 @@ header {
 @media (min-width: 450px) {
   #credit a::after {
     content: "Wired Women's Studies - University of York";
+  }
+}
+
+.main-content {
+  margin: $margin;
+}
+
+a[class=lessons] {
+  text-decoration: none;
+  color: black;
+}
+
+.card:hover {
+  @extend %header-color;
+  .card-title {
+    @extend %header-color;
+  }
+  .card-text {
+    @extend %header-color;
   }
 }

@@ -1,40 +1,75 @@
-header, #credit, #credit a {
-	color: whitesmoke;
-	background-color: gray;
+/* line 3, stdin */
+header, #credit, #credit a, .card:hover, .card:hover .card-title, .card:hover .card-text {
+  color: whitesmoke;
+  background-color: gray;
 }
 
+/* line 10, stdin */
 body {
-	font-family: Arial, sans-serif;
+  font-family: Arial, sans-serif;
+  background-color: ivory;
 }
 
+/* line 13, stdin */
+body .btn {
+  font-weight: bold;
+}
+
+/* line 16, stdin */
+body .btn-info {
+  color: whitesmoke;
+}
+
+/* line 19, stdin */
+body .btn-info:hover {
+  background-color: aquamarine;
+}
+
+/* line 24, stdin */
 header {
-	text-align: center;
-	font-size: 32px;
-	font-weight: bold;
+  text-align: center;
+  font-size: 32px;
+  font-weight: bold;
 }
 
+/* line 31, stdin */
 #credit {
-	text-align: center;
-	padding-bottom: 5px;
-	font-size: 14px;
+  text-align: center;
+  padding-bottom: 5px;
+  font-size: 14px;
 }
 
+/* line 36, stdin */
 #credit a {
-	text-decoration: underline;
+  text-decoration: underline;
 }
 
+/* line 42, stdin */
 #credit > img {
-	width: 16px;
+  width: 16px;
 }
 
 @media (max-width: 449px) {
-	#credit a::after {
-		content: "WWS - University of York";
-	}
+  /* line 47, stdin */
+  #credit a::after {
+    content: "WWS - University of York";
+  }
 }
 
 @media (min-width: 450px) {
-	#credit a::after {
-		content: "Wired Women's Studies - University of York";
-	}
+  /* line 53, stdin */
+  #credit a::after {
+    content: "Wired Women's Studies - University of York";
+  }
+}
+
+/* line 58, stdin */
+.main-content {
+  margin: 25px;
+}
+
+/* line 62, stdin */
+a[class=lessons] {
+  text-decoration: none;
+  color: black;
 }
