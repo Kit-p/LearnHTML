@@ -18,7 +18,7 @@ It contains a panel leading to the list of lessons.
 *----------Tasks Accomplished----------*  
 - Included 1 image.  
 - Used Bootstrap 4.  
-- Used Bootstrap 3 components `button`, `jumbotron`, and `card`.  
+- Used 3 Bootstrap components `button`, `jumbotron`, and `card`.  
 - Used more than 2 columns of Bootstrap grid model.  
 
 **`index.css`**  
@@ -42,5 +42,9 @@ This is the source code of `index.css`.
 This is the Lesson0 page.  
 It introduces basic HTML tags.  
 *----------Tasks Accomplished----------*  
-- Included 1 unordered list.
-- Included 1 table.
+- Included 1 unordered list.  
+- Included 1 table.  
+
+**`lesson1.html`**  
+This is the Lesson1 page.  
+It introduces simple formatting.  
