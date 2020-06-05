@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Lesson0 - Learn HTML</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+  </head>
+  <body>
+    <header>Learn HTML</header>
+    <h6 id="credit">
+      All content credit to 
+      <a href="https://www.york.ac.uk/teaching/cws/wws/swp1.html"></a>
+      <img src='http://www.google.com/s2/favicons?domain=www.york.ac.uk'/>
+    </h6>
+    <ul class="nav nav-tabs nav-fill">
+      <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+      <li class="nav-item"><a class="nav-link active" href="#">0</a></li>
+      <li class="nav-item"><a class="nav-link" href="lesson1.html">1</a></li>
+      <li class="nav-item"><a class="nav-link" href="lesson2.html">2</a></li>
+      <li class="nav-item"><a class="nav-link" href="lesson3.html">3</a></li>
+    </ul>
+    <div class="main-content">
+      <h2 class="lesson-title">STARTING...</h2>
+      <div class="jumbotron">
+        <p>There are lots of ways to create web pages using already coded programmes. These lessons will teach you how to use the underlying HyperText Markup Language - HTML. </p>
+        <hr class="my-4">
+        <p>HTML isn't computer code, but is a language that uses US English to enable texts (words, images, sounds) to be inserted and formatting such as colo(u)r and centre/ering to be written in. The process is fairly simple; the main difficulties often lie in small mistakes - if you slip up while word processing your reader may pick up your typos, but the page will still be legible. However, if your HTML is inaccurate the page may not appear - writing web pages is, at the least, very good practice for proof reading!</p>
+        <p>
+          Learning HTML will enable you to:
+          <ul>
+            <li>create your own simple pages</li>
+            <li>read and appreciate pages created by others</li>
+            <li>develop an understanding of the creative and literary implications of web-texts</li>
+            <li>have the confidence to branch out into more complex web design</li>
+          </ul>
+        </p>
+        <hr class="my-4">
+        <p>A HTML web page is made up of tags. Tags are placed in brackets like this <code>&lt;tag&gt;</code>. A tag tells the browser how to display information. Most tags need to be opened <code>&lt;tag&gt;</code> and closed <code>&lt;/tag&gt;</code>.</p>
+        <p>
+          To make a simple web page you need to know only four tags (all four need to be closed):
+          <table class="table">
+            <thead>
+              <tr>
+                <th scope="col">Tag</th>
+                <th scope="col">Purpose</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><code>&lt;html&gt; &lt;/html&gt;</code></td>
+                <td>This tells the browser your page is written in HTML format</td>
+              </tr>
+              <tr>
+                <td><code>&lt;head&gt; &lt;/head&gt;</code></td>
+                <td>This is a kind of preface of vital information not shown on the screen</td>
+              </tr>
+              <tr>
+                <td><code>&lt;title&gt; &lt;/title&gt;</code></td>
+                <td>This is the title that viewers see on the upper bar of their screen</td>
+              </tr>
+              <tr>
+                <td><code>&lt;body&gt; &lt;/body&gt;</code></td>
+                <td>This is where you put the content of your page, like words and pictures</td>
+              </tr>
+            </tbody>
+          </table>
+        </p>
+      </div>
+      <div class="jumbotron">
+        <h2>EXERCISE</h2>
+        <p>Write a simple web page.</p>
+        <p>Copy out exactly the HTML below, using a WP program such as Notepad.<br/>Information in <i>italics</i> indicates where you can insert your own text, other information is HTML and needs to be exact. However, make sure there are no spaces between the tag brackets and the text inside.<br/>(Find Notepad by going to the START menu\ PROGRAMS\ ACCESSORIES\ NOTEPAD).</p>
+        <hr class="my-4">
+        <p>
+          <pre><code>
+&lt;html&gt;
+  &lt;head&gt;
+    &lt;title&gt;<i>title of page</i>&lt;/title&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+    <i>write what you like here: 'my first web page', or a piece about what you are reading, or a few thoughts on the course, or copy out a few words from a book or cornflake packet. Just type in your words using no extras such as bold, or italics, as these have special HTML tags, although you may use upper and lower case letters and single spaces.</i>
+  &lt;/body&gt;
+&lt;/html&gt;
+          </code></pre>
+        </p>
+        <hr class="my-4">
+        <p>Save the file as 'first.html' (ie. call the file anything at all) It's useful if you start a folder - just as you would for word-processing - and call it something like WEBPAGES, and put your first.html file in the folder.</p>
+        <p>NOW - open your browser.</p>
+        <p>On Netscape the process is:<br/>Top menu; FILE\ OPEN PAGE\ CHOOSE FILE<br/>Click on your WEBPAGES folder\ FIRST file<br/>Click 'open' and your page should appear.</p>
+        <p>On Internet Explorer:<br/>Top menu; FILE\ OPEN\ BROWSE<br/>Click on your WEBPAGES folder\ FIRST file<br/>Click 'open' and your page should appear.</p>
+        <p>If the page doesn't open, go back over your notepad typing and make sure that all the HTML tags are correct. Check there are no spaces between tags and internal text; check that all tags are closed; check that you haven't written < HTLM > or < BDDY >. Your page will work eventually.</p>
+        <p>Make another page. Call it somethingdifferent.html and place it in the same WEBPAGES folder as detailed above.</p>
+        <hr class="my-4">
+        <a class="btn btn-info" href="index.html" role="button">Back to Home</a>
+        <a class="btn btn-info" href="lesson1.html" role="button">Next Lesson</a>
+      </div>
+    </div>
+  </body>
+</html>

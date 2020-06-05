@@ -37,3 +37,10 @@ This is the source code of `index.css`.
 - Used SCSS variables.  
 - Used SCSS nesting.  
 - Used SCSS inheritance.  
+
+**`lesson0.html`**  
+This is the Lesson0 page.  
+It introduces basic HTML tags.  
+*----------Tasks Accomplished----------*  
+- Included 1 unordered list.
+- Included 1 table.

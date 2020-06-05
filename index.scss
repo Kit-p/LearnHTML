@@ -12,12 +12,22 @@ body {
   background-color: ivory;
   .btn {
     font-weight: bold;
+    margin-left: 5px;
+    margin-right: 5px;
   }
   .btn-info {
     color: $light-font-color;
   }
   .btn-info:hover {
     background-color: aquamarine;
+  }
+  pre {
+    overflow-x: auto;
+    white-space: pre-wrap;
+    white-space: -moz-pre-wrap;
+    white-space: -pre-wrap;
+    white-space: -o-pre-wrap;
+    word-wrap: break-word;
   }
 }
 
@@ -47,11 +57,17 @@ header {
   #credit a::after {
     content: "WWS - University of York";
   }
+  .nav-tabs li > a:not([href="index.html"])::before {
+    content: "L";
+  }
 }
 
 @media (min-width: 450px) {
   #credit a::after {
     content: "Wired Women's Studies - University of York";
+  }
+  .nav-tabs li > a:not([href="index.html"])::before {
+    content: "Lesson";
   }
 }
 
@@ -72,4 +88,10 @@ a[class=lessons] {
   .card-text {
     @extend %header-color;
   }
+}
+
+
+.lesson-title {
+  padding-left: 30px;
+  font-weight: bold;
 }
