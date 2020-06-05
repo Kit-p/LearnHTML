@@ -1,0 +1,42 @@
+%header-color {
+  color: whitesmoke;
+  background-color: gray;
+}
+
+body {
+  font-family: Arial, sans-serif
+}
+
+header {
+  @extend %header-color;
+  text-align: center;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+#credit {
+  @extend %header-color;
+  text-align: center;
+  padding-bottom: 5px;
+  font-size: 14px;
+  a {
+    @extend %header-color;
+    text-decoration: underline;
+  }
+}
+
+#credit > img {
+  width: 16px;
+}
+
+@media (max-width: 449px) {
+  #credit a::after {
+    content: "WWS - University of York";
+  }
+}
+
+@media (min-width: 450px) {
+  #credit a::after {
+    content: "Wired Women's Studies - University of York";
+  }
+}

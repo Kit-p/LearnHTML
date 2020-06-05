@@ -1,0 +1,40 @@
+header, #credit, #credit a {
+	color: whitesmoke;
+	background-color: gray;
+}
+
+body {
+	font-family: Arial, sans-serif;
+}
+
+header {
+	text-align: center;
+	font-size: 32px;
+	font-weight: bold;
+}
+
+#credit {
+	text-align: center;
+	padding-bottom: 5px;
+	font-size: 14px;
+}
+
+#credit a {
+	text-decoration: underline;
+}
+
+#credit > img {
+	width: 16px;
+}
+
+@media (max-width: 449px) {
+	#credit a::after {
+		content: "WWS - University of York";
+	}
+}
+
+@media (min-width: 450px) {
+	#credit a::after {
+		content: "Wired Women's Studies - University of York";
+	}
+}
