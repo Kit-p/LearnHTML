@@ -7,6 +7,8 @@ Kit-p
 
 # Description
 
+Deployed in GitHub Pages: https://kit-p.github.io/cs50_wpJSpy_project0/  
+
 This project intends to re-design an online HTML learning web page offered by Wired Women's Studies at University of York. The original website is old and not visually-appealing to the readers. This project provides a fresh and modern design for the web page and offers potential readers a enjoyable learning experience.
 
 # Objectives
