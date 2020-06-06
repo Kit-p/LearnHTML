@@ -29,6 +29,9 @@ body {
     white-space: -o-pre-wrap;
     word-wrap: break-word;
   }
+  blockquote {
+    text-align: center;
+  }
 }
 
 header {
@@ -89,7 +92,6 @@ a[class=lessons] {
     @extend %header-color;
   }
 }
-
 
 .lesson-title {
   padding-left: 30px;

@@ -1,33 +1,27 @@
-/* line 3, stdin */
 header, #credit, #credit a, .card:hover, .card:hover .card-title, .card:hover .card-text {
   color: whitesmoke;
   background-color: gray;
 }
 
-/* line 10, stdin */
 body {
   font-family: Arial, sans-serif;
   background-color: ivory;
 }
 
-/* line 13, stdin */
 body .btn {
   font-weight: bold;
   margin-left: 5px;
   margin-right: 5px;
 }
 
-/* line 18, stdin */
 body .btn-info {
   color: whitesmoke;
 }
 
-/* line 21, stdin */
 body .btn-info:hover {
   background-color: aquamarine;
 }
 
-/* line 24, stdin */
 body pre {
   overflow-x: auto;
   white-space: pre-wrap;
@@ -37,64 +31,57 @@ body pre {
   word-wrap: break-word;
 }
 
-/* line 34, stdin */
+body blockquote {
+  text-align: center;
+}
+
 header {
   text-align: center;
   font-size: 32px;
   font-weight: bold;
 }
 
-/* line 41, stdin */
 #credit {
   text-align: center;
   padding-bottom: 5px;
   font-size: 14px;
 }
 
-/* line 46, stdin */
 #credit a {
   text-decoration: underline;
 }
 
-/* line 52, stdin */
 #credit > img {
   width: 16px;
 }
 
 @media (max-width: 449px) {
-  /* line 57, stdin */
   #credit a::after {
     content: "WWS - University of York";
   }
-  /* line 60, stdin */
   .nav-tabs li > a:not([href="index.html"])::before {
     content: "L";
   }
 }
 
 @media (min-width: 450px) {
-  /* line 66, stdin */
   #credit a::after {
     content: "Wired Women's Studies - University of York";
   }
-  /* line 69, stdin */
   .nav-tabs li > a:not([href="index.html"])::before {
     content: "Lesson";
   }
 }
 
-/* line 74, stdin */
 .main-content {
   margin: 25px;
 }
 
-/* line 78, stdin */
 a[class=lessons] {
   text-decoration: none;
   color: black;
 }
 
-/* line 94, stdin */
 .lesson-title {
   padding-left: 30px;
   font-weight: bold;

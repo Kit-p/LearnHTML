@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Lesson2 - Learn HTML</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+  </head>
+  <body>
+    <header>Learn HTML</header>
+    <h6 id="credit">
+      All content credit to 
+      <a href="https://www.york.ac.uk/teaching/cws/wws/swp1.html"></a>
+      <img src='http://www.google.com/s2/favicons?domain=www.york.ac.uk'/>
+    </h6>
+    <ul class="nav nav-tabs nav-fill">
+      <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+      <li class="nav-item"><a class="nav-link" href="lesson0.html">0</a></li>
+      <li class="nav-item"><a class="nav-link" href="lesson1.html">1</a></li>
+      <li class="nav-item"><a class="nav-link active" href="#">2</a></li>
+      <li class="nav-item"><a class="nav-link" href="lesson3.html">3</a></li>
+    </ul>
+    <div class="main-content">
+      <h2 class="lesson-title">Making + Connections:<br/>Linking + Webtexts</h2>
+      <div class="jumbotron">
+        <blockquote class="blockquote">
+          <p><b>"The metaphor of the Text is that of the network"</b> Roland Barthes</p>
+        </blockquote>
+        <p>We now turn to the second innovative characteristic of the web for creative work: the ability to allow clickable links, known as hyperlinks or hypertext. In fact, for many people hypertext is the web.</p>
+        <p>A useful way to begin to understand the connectivity of the web is to make your own links. This is relatively straightforward, once you have got used to being very precise with your typing.</p>
+        <hr class="my-4">
+        <h5>LINK TO ANOTHER WEB SITE</h5>
+        <p>This is written via a tag that needs to be opened and closed.<br/>Choose a web page you would like to link to - it could be one of a favourite writer, a home page of a friend, or your favourite band. Note the URL (address of the first page of the site). (The easiest way is to highlight this in the bar above the page, then copy it ready to paste into your tag.)</p>
+        <p>This is the tag you use:<br/><code>&lt;a href="http://www.website.com"&gt;</code><i>your text</i><code>&lt;/a&gt;</code></p>
+        <p>
+          Be sure that:
+          <ol>
+            <li>there are no spaces between the tag and the text</li>
+            <li>you enter the full URL</li>
+          </ol>
+        </p>
+        <p>example - here is the HTML for a link to Wired Women's Studies, University of York.<br/><code>&lt;a href="https://www.york.ac.uk/teaching/cws/wws/"&gt;</code><a href="https://www.york.ac.uk/teaching/cws/wws/">WWS</a><code>&lt;/a&gt;</code></p>
+        <p>The link is live - try it!</p>
+        <h5>LINKS BETWEEN YOUR OWN PAGES</h5>
+        <p>When you have written more than one page you can make links between them. This is the tag you use:<br/><code>&lt;a href="yourpage.html"&gt;</code><i>linking text</i><code>&lt;/a&gt;</code></p>
+        <p>example- here is the HTML code for a link to the first web page lesson:<br/><code>&lt;a href="lesson0.html"&gt;</code><a href="lesson0.html">A Simple Web Page</a><code>&lt;/a&gt;</code></p>
+        <p>I could have written anything instead of 'A Simple Web Page' - written a whole paragraph, or inserted an image (see next lesson): it's the <code>&lt;a&gt;</code> tags that do the work.</p>
+        <h5>A LINK TO YOUR OWN EMAIL ADDRESS</h5>
+        <p>This is the tag I would use:<br/><code>&lt;a href="mailto:eakn1@york.ac.uk"&gt;</code><a href="mailto:eakn1@york.ac.uk">email me</a><code>&lt;/a&gt;</code></p>
+        <p>This HTML opens up an email message page. Try the one above to see what happens - and send me a message when you reach this point.</p>
+        <h5>LINKING FROM IMAGES</h5>
+        <p>This will be covered in <a href="lesson3.html">next lesson</a>.</p>
+      </div>
+      <div class="jumbotron">
+        <h2>EXERCISE: MAKING <i>YOUR</i> CONNECTIONS</h2>
+        <p>Plan a simple web site on paper with a home page and at least five links. These should include a link between at least two pages of your own, as well as links to other pages on the net and a live email link. This is an exercise, not a definitive site, so don't worry too much about what you choose. Scribble your ideas, include arrows to show where you will put the links and which direction they will link. Your plan might look something like this.</p>
+        <img src="https://www.york.ac.uk/teaching/cws/wws/page.gif">
+        <p></br>Now transfer your plan to an electronic format and save your work in your WEBPAGES folder.</p>
+        <hr class="my-4">
+        <a class="btn btn-info" href="lesson1.html" role="button">Prev Lesson</a>
+        <a class="btn btn-info" href="lesson3.html" role="button">Next Lesson</a>
+      </div>
+    </div>
+  </body>
+</html>

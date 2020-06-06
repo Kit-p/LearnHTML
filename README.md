@@ -48,3 +48,7 @@ It introduces basic HTML tags.
 **`lesson1.html`**  
 This is the Lesson1 page.  
 It introduces simple formatting.  
+
+**`lesson2.html`**  
+This is the Lesson2 page.  
+It introduces linking web texts.  
