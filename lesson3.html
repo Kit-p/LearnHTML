@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Lesson3 - Learn HTML</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+  </head>
+  <body>
+    <header>Learn HTML</header>
+    <h6 id="credit">
+      All content credit to 
+      <a href="https://www.york.ac.uk/teaching/cws/wws/swp1.html"></a>
+      <img src='http://www.google.com/s2/favicons?domain=www.york.ac.uk'/>
+    </h6>
+    <ul class="nav nav-tabs nav-fill">
+      <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+      <li class="nav-item"><a class="nav-link" href="lesson0.html">0</a></li>
+      <li class="nav-item"><a class="nav-link" href="lesson1.html">1</a></li>
+      <li class="nav-item"><a class="nav-link" href="lesson2.html">2</a></li>
+      <li class="nav-item"><a class="nav-link active" href="#">3</a></li>
+    </ul>
+    <div class="main-content">
+      <img src="https://www.york.ac.uk/teaching/cws/wws/textasimage.gif">
+      <div class="jumbotron">
+        <p>The third characteristic of web page writing is the blurring of boundaries between words and images. The technology of the web encourages this: in work devised for the screen it is nearly as easy, and as inexpensive, to insert an image instead of written text. For instance, the title of this page - 'IMAGES' - is a simple image prepared in Photoshop (view 'SOURCE' to check this out).</p>
+        <p>This lesson introduces you to working with images - a huge topic in itself. I offer some suggestions for obtaining images, show you how to insert an image in a web page, and how to make a hyperlink from that image.</p>
+        <hr class="my-4">
+        <h5>OBTAINING IMAGES</h5>
+        <p>
+          There are three main ways to get hold of images for use in web pages.
+          <ol>
+            <li>Use an image from the clip art packages offered with systems such as Microsoft Works.</li>
+            <li>
+              Take images from the web. This is remarkably easy:
+              <ul>
+                <li>If you see an image you like on a web page, move your mouse over the image.</li>
+                <li>
+                  Right click your mouse, and select 'Save picture as'
+                  <ul>
+                    <li>(Try this with the title image at the top of the page)</li>
+                  </ul>
+                </li>
+                <li>
+                  Save the file: it is best if you create a New Folder called something like IMAGES, and place this folder in your WEBPAGES folder. The saving is very similar to the process involved in saving a Word or WordPerfect file; the main difference is that you will notice the file is called 'something.jpg' (or jpeg) or 'something.gif'. You can change the name (the 'something' of the file designation) but you must retain the format extension (ie jpg/jpeg or gif).
+                  <br/><br/>
+                  COPYRIGHT: Though few people are likely to be concerned about you taking an image for personal use, you must always respect the artists right over their work, as you would for work offered in books and journals. For master's essays, which are not published work, it is acceptable to use images without asking for permission SO LONG AS YOU SUPPLY A FULL REFERENCE. For Master's dissertations, and especially for PhD work, the area is more complex and the issues of copyright are still being resolved. If in doubt, write to the web designer and ask for permission.
+                </li>
+              </ul>
+            </li>
+            <li>
+              Create your own.
+              <ul>
+                <li>Use any image-manipultaing software.<br/>This area of graphics manipulation is obviously a huge area in its own right, and beyond the scope of the course. However, due in part to the popularity of digital photography basic image manipulation software is widely available and easy to use: if you have computer you might well have something bundled in with your computer software. Simple programmes can obtained most months from the 'free' CDs on computer magazines (.Net is one of the best, but check out the others too). You can also download many free programmes - try finding what you need though a GOOGLE search. Of course, you can only use this new material if you have your own computer, as you cannot install new programmes on to the University system.</li>
+                <li>Scanners can be very useful. Scan in your image at no more than 150 dpi (dots per inch), though I use 70 dpi for preference. If you do it denser than this the image will take a l-o-n-g t-i-m-e t-o d-o-w-n-l-o-a-d when you open your webpage. You can use photos, published images, and bits and pieces (lace material, crumpled paper, 3D objects ...)<br/>Don't forget to save the image as a gif or jpg file (ie save it in that formant and give it the appropraite suffix).</li>
+              </ul>
+            </li>
+          </ol>
+        </p>
+        <h5>INSERTING IMAGES</h5>
+        <p>The tag used is:<br/><code>&lt;img src="image.jpg"&gt;</code> or <code>&lt;img src="image.gif"&gt;</code></p>
+        <h5>Making your inserted image look good</h5>
+        <p>You can place your image "left" or "right" on the page by using a modifying tag like so:<br/><code>&lt;img src="image.jpg" style="float:right"&gt;</code></p>
+        <p>When an image is aligned "left" or "right" written text will wrap around the image. You can add space between words and image by adding the style property <code>margin</code>!<br/><code>&lt;img src="image.jpg" style="float:right; margin:25px 50px;</code></p>
+        <h5>MAKING LINKS FROM IMAGES</h5>
+        <a href="http://www.york.ac.uk/inst/cws/"><img src="https://www.york.ac.uk/teaching/cws/wws/toofar.gif"></a>
+        <p><br/><br/>This is done in exactly the same way as linking text files, by using the <code>&lt;a&gt;</code> tag.</p>
+        <p>The basic code for inserting the image to the left is:<br/><code>&lt;a href="http://www.york.ac.uk/inst/cws/"&gt;</code><br/><code>&lt;img src="toofar.gif" style="float:left"&gt;&lt;/a&gt;</code></p>
+        <p>The url after <code>&lt;a href=&gt;</code> is the name of the destination site (in this case the CWS home page)</p>
+        <p>'too far.gif' is the name I gave to the linking image - the cartoon.</p>
+        <p>If I had wanted to remove the default border from the cartoon linking image I could have added <code>border:none;</code> inside the style attribute of the <code>&lt;a&gt;</code> tag.</p>
+      </div> 
+      <div class="jumbotron">
+        <h2>EXERCISE</h2>
+        <p>Surf the web and pick up a few images as instructed above. Save them in your IMAGES folder.</p>
+        <p>Insert an image in one of your web pages with some text. Move the image around: Align it 'left' or 'right' and look to see what happens. Try adjusting the margin property. Add and remove the image border.</p>
+        <p>When you are happy with the format of the page, make a link from the image to another web page.</p>
+        <hr class="my-4">
+        <a class="btn btn-info" href="lesson2.html" role="button">Prev Lesson</a>
+        <a class="btn btn-info" href="index.html" role="button">Back to Home</a>
+      </div>
+    </div>
+  </body>
+</html>

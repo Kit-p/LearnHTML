@@ -56,21 +56,30 @@ header {
   width: 16px;
 }
 
-@media (max-width: 449px) {
+@media (max-width: 474px) {
   #credit a::after {
     content: "WWS - University of York";
   }
   .nav-tabs li > a:not([href="index.html"])::before {
     content: "L";
   }
+  .main-content img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
-@media (min-width: 450px) {
+@media (min-width: 475px) {
   #credit a::after {
     content: "Wired Women's Studies - University of York";
   }
   .nav-tabs li > a:not([href="index.html"])::before {
     content: "Lesson";
+  }
+  .main-content a > img {
+    float: left;
+    margin-right: 25px;
   }
 }
 

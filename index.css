@@ -1,27 +1,33 @@
+/* line 3, index.scss */
 header, #credit, #credit a, .card:hover, .card:hover .card-title, .card:hover .card-text {
   color: whitesmoke;
   background-color: gray;
 }
 
+/* line 10, index.scss */
 body {
   font-family: Arial, sans-serif;
   background-color: ivory;
 }
 
+/* line 13, index.scss */
 body .btn {
   font-weight: bold;
   margin-left: 5px;
   margin-right: 5px;
 }
 
+/* line 18, index.scss */
 body .btn-info {
   color: whitesmoke;
 }
 
+/* line 21, index.scss */
 body .btn-info:hover {
   background-color: aquamarine;
 }
 
+/* line 24, index.scss */
 body pre {
   overflow-x: auto;
   white-space: pre-wrap;
@@ -31,57 +37,80 @@ body pre {
   word-wrap: break-word;
 }
 
+/* line 32, index.scss */
 body blockquote {
   text-align: center;
 }
 
+/* line 37, index.scss */
 header {
   text-align: center;
   font-size: 32px;
   font-weight: bold;
 }
 
+/* line 44, index.scss */
 #credit {
   text-align: center;
   padding-bottom: 5px;
   font-size: 14px;
 }
 
+/* line 49, index.scss */
 #credit a {
   text-decoration: underline;
 }
 
+/* line 55, index.scss */
 #credit > img {
   width: 16px;
 }
 
-@media (max-width: 449px) {
+@media (max-width: 474px) {
+  /* line 60, index.scss */
   #credit a::after {
     content: "WWS - University of York";
   }
+  /* line 63, index.scss */
   .nav-tabs li > a:not([href="index.html"])::before {
     content: "L";
   }
+  /* line 66, index.scss */
+  .main-content img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
-@media (min-width: 450px) {
+@media (min-width: 475px) {
+  /* line 74, index.scss */
   #credit a::after {
     content: "Wired Women's Studies - University of York";
   }
+  /* line 77, index.scss */
   .nav-tabs li > a:not([href="index.html"])::before {
     content: "Lesson";
   }
+  /* line 80, index.scss */
+  .main-content a > img {
+    float: left;
+    margin-right: 25px;
+  }
 }
 
+/* line 86, index.scss */
 .main-content {
   margin: 25px;
 }
 
+/* line 90, index.scss */
 a[class=lessons] {
   text-decoration: none;
   color: black;
 }
 
+/* line 105, index.scss */
 .lesson-title {
   padding-left: 30px;
   font-weight: bold;

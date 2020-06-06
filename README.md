@@ -3,11 +3,18 @@
 Web Programming with Python and JavaScript
 
 # Author
-Kit-p [GitHub username]
+Kit-p
 
 # Description
 
 This project intends to re-design an online HTML learning web page offered by Wired Women's Studies at University of York. The original website is old and not visually-appealing to the readers. This project provides a fresh and modern design for the web page and offers potential readers a enjoyable learning experience.
+
+# Objectives
+
+1. Use HTML and CSS to create a website with multiple pages.  
+2. Make use of tools like Bootstrap and SASS to improve efficiency.  
+3. Understand the basic usage of Git and GitHub.  
+4. Setting up the very first GitHub Pages.
 
 # Files
 
@@ -52,3 +59,17 @@ It introduces simple formatting.
 **`lesson2.html`**  
 This is the Lesson2 page.  
 It introduces linking web texts.  
+
+**`lesson3.html`**  
+This is the Lesson3 page.  
+It introduces images.  
+*----------Tasks Accomplished----------*  
+- Contained more than 4 `.html` pages.  
+- Able to access all pages from any page with hyperlinks.  
+
+**`README.md`**  
+This is the current file.  
+It describes the project and all other files.  
+*----------Tasks Accomplished----------*  
+- Described project.  
+- Described each file.  
